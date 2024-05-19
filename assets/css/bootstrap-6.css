@@ -11764,8 +11764,16 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   height: 220px;
 }
 
+
+.resume-header .imagem{
+  width: 240px;
+  height: 274px;
+}
+
 .resume-header .picture {
-  width: 220px;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
 }
 
 .resume-header .name {
